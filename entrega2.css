@@ -13,7 +13,7 @@ a{
 }
 
 .contenedor {
-    width: 90%;
+    width: 100%;
     max-width: 10000px;
 }
 body{
@@ -81,9 +81,9 @@ ul a :hover {
 color: rgb(255, 75, 75);
 }
 .contenedor2 {
-    background: url(img/principal.jpg);
-    background-position: center;
+    background: url(img/imgprincipal.jpg);
     background-attachment: contain;
+    height: 300px;
     background-size: cover;
     display: flex;
     flex-flow: column-reverse;
@@ -98,7 +98,6 @@ margin: auto;
 .contenedor2 h1 {
     font-size: 3rem;
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(50 50);
 }
@@ -132,6 +131,10 @@ margin: auto;
     padding: 20px 20px;
     box-sizing: border-box;
 }
+@media (max-width: 992px) {
+    .salasfav {
+        width: 100%;
+    }}
 
 h3{
     margin-top: 15px;
@@ -154,3 +157,6 @@ p {
  .favoritas {
     flex-basis: 100%;
 }}
+
+.fa{  color: black;
+font-size: 22px;}

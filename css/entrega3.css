@@ -261,18 +261,25 @@ p {
   }
 }
 
-/* line 224, ../../Entrega2/scss/entrega3.scss */
+@media screen and (min-width: 992px) {
+  /* line 225, ../../Entrega2/scss/entrega3.scss */
+  .salasfav {
+    height: 650px;
+  }
+}
+
+/* line 231, ../../Entrega2/scss/entrega3.scss */
 .fa {
   color: black;
   font-size: 22px;
 }
 
-/* line 229, ../../Entrega2/scss/entrega3.scss */
+/* line 236, ../../Entrega2/scss/entrega3.scss */
 .close {
   font-size: 1.5rem;
 }
 
-/* line 233, ../../Entrega2/scss/entrega3.scss */
+/* line 240, ../../Entrega2/scss/entrega3.scss */
 .col-12 img {
   opacity: 0.7;
   cursor: pointer;
@@ -280,13 +287,13 @@ p {
   width: 100%;
 }
 
-/* line 239, ../../Entrega2/scss/entrega3.scss */
+/* line 246, ../../Entrega2/scss/entrega3.scss */
 .col-12 img:hover {
   opacity: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 245, ../../Entrega2/scss/entrega3.scss */
+/* line 252, ../../Entrega2/scss/entrega3.scss */
 main h2 {
   text-align: center;
   letter-spacing: 1px;
@@ -295,7 +302,7 @@ main h2 {
   background-color: #b66e6e;
 }
 
-/* line 252, ../../Entrega2/scss/entrega3.scss */
+/* line 259, ../../Entrega2/scss/entrega3.scss */
 .galeria {
   margin-top: 50px;
   text-align: center;
@@ -304,27 +311,27 @@ main h2 {
   padding: 15px;
 }
 
-/* line 260, ../../Entrega2/scss/entrega3.scss */
+/* line 267, ../../Entrega2/scss/entrega3.scss */
 footer {
   display: inline;
   float: inline-end;
 }
 
 /* preguntasfrecuentes*/
-/* line 268, ../../Entrega2/scss/entrega3.scss */
+/* line 275, ../../Entrega2/scss/entrega3.scss */
 .container-faq .title-faq {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 30px;
 }
 
-/* line 274, ../../Entrega2/scss/entrega3.scss */
+/* line 281, ../../Entrega2/scss/entrega3.scss */
 .container-faq .item-faq {
   margin-bottom: 20px;
   border-radius: 10px;
 }
 
-/* line 278, ../../Entrega2/scss/entrega3.scss */
+/* line 285, ../../Entrega2/scss/entrega3.scss */
 .container-faq .item-faq .question {
   position: relative;
   display: flex;
@@ -335,7 +342,7 @@ footer {
   transition: .4s;
 }
 
-/* line 287, ../../Entrega2/scss/entrega3.scss */
+/* line 294, ../../Entrega2/scss/entrega3.scss */
 .container-faq .item-faq .question .more {
   display: flex;
   justify-content: center;
@@ -348,12 +355,12 @@ footer {
   transition: .4s;
 }
 
-/* line 298, ../../Entrega2/scss/entrega3.scss */
+/* line 305, ../../Entrega2/scss/entrega3.scss */
 .container-faq .item-faq .question .more:hover {
   box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.4);
 }
 
-/* line 304, ../../Entrega2/scss/entrega3.scss */
+/* line 311, ../../Entrega2/scss/entrega3.scss */
 .container-faq .item-faq .answer {
   position: relative;
   padding: 0 20px 0 80px;
@@ -361,14 +368,21 @@ footer {
   transition: .4s;
 }
 
-/* line 310, ../../Entrega2/scss/entrega3.scss */
+/* line 317, ../../Entrega2/scss/entrega3.scss */
 .container-faq .item-faq .answer p {
   font-size: 1.3rem;
 }
 
-/* line 317, ../../Entrega2/scss/entrega3.scss */
+/* line 324, ../../Entrega2/scss/entrega3.scss */
 .separacion {
   width: 5px;
+}
+
+/* line 328, ../../Entrega2/scss/entrega3.scss */
+.contacto {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=entrega3.css.map */

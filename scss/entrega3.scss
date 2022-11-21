@@ -221,6 +221,13 @@ p {
   }
 }
 
+@media screen and (min-width: 992px){
+  .salasfav {
+    height: 650px;
+  }
+}
+
+
 .fa {
   color: black;
   font-size: 22px;
@@ -316,4 +323,10 @@ footer {
 
 .separacion {
   width: 5px;
+}
+
+.contacto {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
